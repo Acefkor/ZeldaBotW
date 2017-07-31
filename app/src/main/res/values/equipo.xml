@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="equipo">
+        <item>Soldier\'s Helm</item>
+        <item>Soldier\'s Armor</item>
+        <item>Soldier\'s Greaves</item>
+        <item>Stealth Mask</item>
+        <item>Stealth Chest Guard</item>
+        <item>Stealth Tights</item>
+        <item>Zora Helm</item>
+        <item>Zora Armor</item>
+        <item>Zora Greaves</item>
+        <item>Radiant Mask</item>
+        <item>Radiant Shirt</item>
+        <item>Radiant Tights</item>
+        <item>Rubber Helm</item>
+        <item>RubberArmor</item>
+        <item>Rubber Tights</item>
+        <item>Snowquill Headdress</item>
+        <item>Snowquill Tunic</item>
+        <item>Snowquill Trousers</item>
+        <item>Cap of the Wind</item>
+        <item>Tunic of the Wind</item>
+        <item>Trousers of the Wind</item>
+        <item>Cap of the Hero</item>
+        <item>Tunic of the Hero</item>
+        <item>Trousers of the Hero</item>
+        <item>Hylian Hood</item>
+        <item>Hylian Tunic</item>
+        <item>Hylian Trousers</item>
+        <item>Cap of Time</item>
+        <item>Tunic of Time</item>
+        <item>Trousers of Time</item>
+        <item>Cap of Twilight</item>
+        <item>Tunic of Twilight</item>
+        <item>Trousers of Twilight</item>
+        <item>Cap of the Wild</item>
+        <item>Tunic of the Wild</item>
+        <item>Trousers of the Wild</item>
+        <item>Ancient Helm</item>
+        <item>Ancient Cuirass</item>
+        <item>Ancient Greaves</item>
+        <item>Cap of the Sky</item>
+        <item>Tunic of the Sky</item>
+        <item>Trousers of the Sky</item>
+        <item>Desert Voe Headband</item>
+        <item>Desert Voe Spaulder</item>
+        <item>Desert Voe Trousers</item>
+        <item>Fierce Deity Mask</item>
+        <item>Fierce Deity Armor</item>
+        <item>Fierce Deity Boots</item>
+        <item>Flamebreaker Helm</item>
+        <item>Flamebreaker Armor</item>
+        <item>Flamebreaker Boots</item>
+        <item>Barbarian Helm</item>
+        <item>Barbarian Armor</item>
+        <item>Barbarian Leg Wraps</item>
+        <item>Climber\'s Bandanna</item>
+        <item>Climbing Gear</item>
+        <item>Climbing Boots</item>
+        <item>Amber Earrings</item>
+        <item>Topaz Earrings</item>
+        <item>Opal Earrings</item>
+        <item>Diamond Circlet</item>
+        <item>Ruby Circlet</item>
+        <item>Sapphire Circlet</item>
+        <item>Sheik\'s Mask</item>
+        <item>Champion\'s Tunic</item>
+        <item>Sand Boots</item>
+        <item>Snow Boots</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Upgrade BotW</string>
+    <!-- Niveles de upgrade -->
+    <string name="nivel1">Nivel 1</string>
+    <string name="nivel2">Nivel 2</string>
+    <string name="nivel3">Nivel 3</string>
+    <string name="nivel4">Nivel 4</string>
+    <!-- material 1/2 por nivel -->
+    <string name="mat1">Material 1</string>
+    <string name="mat2">Material 2</string>
+</resources>

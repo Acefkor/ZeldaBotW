@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- colores de niveles -->
+    <color name="nivel1">#00FF00</color>
+    <color name="nivel2">#0000FF</color>
+    <color name="nivel3">#FF00FF</color>
+    <color name="nivel4">#FF0000</color>
+</resources>
