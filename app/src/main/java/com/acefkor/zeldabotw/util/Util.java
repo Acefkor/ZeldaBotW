@@ -1,8 +1,8 @@
-package com.acefkor.zeldabotw;
+package com.acefkor.zeldabotw.util;
 
 import android.widget.TextView;
 
-class Util {
+public class Util {
 
     private TextView mat1L1;
     private TextView mat2L1;
@@ -24,7 +24,7 @@ class Util {
         this.mat2L4 = mat1L1[7];
     }
 
-    public void setMaterials(int position){
+    public void getMaterials(int position){
         if(position == 0){//Soldier\'s Helm
             mat1L1.setText("5x Chuchu Jelly");
             mat2L1.setText("3x Bokoblin Guts");

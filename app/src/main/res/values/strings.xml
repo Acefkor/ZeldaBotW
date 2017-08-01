@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Upgrade BotW</string>
+    <string name="action_settings">Settings</string>
+    <string name="selecciona_una_opcion">Selecciona una opcion:</string>
     <!-- Niveles de upgrade -->
     <string name="nivel1">Nivel 1</string>
     <string name="nivel2">Nivel 2</string>
