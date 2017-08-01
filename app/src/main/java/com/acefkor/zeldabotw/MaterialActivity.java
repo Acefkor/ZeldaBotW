@@ -39,7 +39,7 @@ public class MaterialActivity extends AppCompatActivity {
         Integer position = b.getInt("position");
 
         matName.setText(b.getString("equipo"));
-        Util u = new Util(mat1L1,mat2L1,mat1L2,mat2L2,mat1L3,mat2L3,mat1L4,mat2L4);
+        Util u = new Util(mat1L1, mat2L1, mat1L2, mat2L2, mat1L3, mat2L3, mat1L4, mat2L4);
         u.getMaterials(position);
     }
 }

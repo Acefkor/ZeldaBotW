@@ -1,142 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
 
-    <TextView android:id="@+id/matName"
+    <TextView
+        android:id="@+id/matName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="Equipo"/>
+        android:textStyle="bold" />
     <!-- NIVEL 1 DE UPGRADE -->
-    <TextView android:id="@+id/nivel1"
+    <TextView
+        android:id="@+id/nivel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/matName"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/nivel1"
-        android:text="@string/nivel1"/>
-    <TextView android:id="@+id/MAT1L1"
+        android:text="@string/nivel1"
+        android:textColor="@color/nivel1" />
+
+    <TextView
+        android:id="@+id/MAT1L1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nivel1"
         android:layout_alignParentLeft="true"
-        android:text="@string/mat1"/>
-    <TextView android:id="@+id/MAT2L1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/nivel1"
-        android:layout_alignParentRight="true"
-        android:text="@string/mat2"/>
-    <TextView android:id="@+id/mat1L1"
+        android:text="@string/mat1" />
+
+    <TextView
+        android:id="@+id/MAT2L1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT1L1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nivel1"
+        android:text="@string/mat2" />
+
+    <TextView
+        android:id="@+id/mat1L1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text=""/>
-    <TextView android:id="@+id/mat2L1"
+        android:layout_below="@id/MAT1L1" />
+
+    <TextView
+        android:id="@+id/mat2L1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT2L1"
         android:layout_alignParentRight="true"
-        android:text=""/>
+        android:layout_below="@id/MAT2L1" />
     <!-- NIVEL 2 DE UPGRADE -->
-    <TextView android:id="@+id/nivel2"
+    <TextView
+        android:id="@+id/nivel2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/mat1L1"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/nivel2"
-        android:text="@string/nivel2"/>
-    <TextView android:id="@+id/MAT1L2"
+        android:text="@string/nivel2"
+        android:textColor="@color/nivel2" />
+
+    <TextView
+        android:id="@+id/MAT1L2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nivel2"
         android:layout_alignParentLeft="true"
-        android:text="@string/mat1"/>
-    <TextView android:id="@+id/MAT2L2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/nivel2"
-        android:layout_alignParentRight="true"
-        android:text="@string/mat2"/>
-    <TextView android:id="@+id/mat1L2"
+        android:text="@string/mat1" />
+
+    <TextView
+        android:id="@+id/MAT2L2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT1L2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nivel2"
+        android:text="@string/mat2" />
+
+    <TextView
+        android:id="@+id/mat1L2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text=""/>
-    <TextView android:id="@+id/mat2L2"
+        android:layout_below="@id/MAT1L2" />
+
+    <TextView
+        android:id="@+id/mat2L2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT2L2"
         android:layout_alignParentRight="true"
-        android:text=""/>
+        android:layout_below="@id/MAT2L2" />
     <!-- NIVEL 3 DE UPGRADE -->
-    <TextView android:id="@+id/nivel3"
+    <TextView
+        android:id="@+id/nivel3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/mat1L2"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/nivel3"
-        android:text="@string/nivel3"/>
-    <TextView android:id="@+id/MAT1L3"
+        android:text="@string/nivel3"
+        android:textColor="@color/nivel3" />
+
+    <TextView
+        android:id="@+id/MAT1L3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nivel3"
         android:layout_alignParentLeft="true"
-        android:text="@string/mat1"/>
-    <TextView android:id="@+id/MAT2L3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/nivel3"
-        android:layout_alignParentRight="true"
-        android:text="@string/mat2"/>
-    <TextView android:id="@+id/mat1L3"
+        android:text="@string/mat1" />
+
+    <TextView
+        android:id="@+id/MAT2L3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT1L3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nivel3"
+        android:text="@string/mat2" />
+
+    <TextView
+        android:id="@+id/mat1L3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text=""/>
-    <TextView android:id="@+id/mat2L3"
+        android:layout_below="@id/MAT1L3" />
+
+    <TextView
+        android:id="@+id/mat2L3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT2L3"
         android:layout_alignParentRight="true"
-        android:text=""/>
+        android:layout_below="@id/MAT2L3" />
     <!-- NIVEL 4 DE UPGRADE -->
-    <TextView android:id="@+id/nivel4"
+    <TextView
+        android:id="@+id/nivel4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/mat1L3"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/nivel4"
-        android:text="@string/nivel4"/>
-    <TextView android:id="@+id/MAT1L4"
+        android:text="@string/nivel4"
+        android:textColor="@color/nivel4" />
+
+    <TextView
+        android:id="@+id/MAT1L4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nivel4"
         android:layout_alignParentLeft="true"
-        android:text="@string/mat1"/>
-    <TextView android:id="@+id/MAT2L4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@id/nivel4"
-        android:layout_alignParentRight="true"
-        android:text="@string/mat2"/>
-    <TextView android:id="@+id/mat1L4"
+        android:text="@string/mat1" />
+
+    <TextView
+        android:id="@+id/MAT2L4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT1L4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nivel4"
+        android:text="@string/mat2" />
+
+    <TextView
+        android:id="@+id/mat1L4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text=""/>
-    <TextView android:id="@+id/mat2L4"
+        android:layout_below="@id/MAT1L4" />
+
+    <TextView
+        android:id="@+id/mat2L4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MAT2L4"
         android:layout_alignParentRight="true"
-        android:text=""/>
+        android:layout_below="@id/MAT2L4" />
 
 </RelativeLayout>
