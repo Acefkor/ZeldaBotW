@@ -7,15 +7,21 @@ package com.acefkor.zeldabotw.util;
 public class Titular {
 
     private String titulo;
+    private String subTitulo;
     private Integer img;
 
-    public Titular(String titulo, Integer img) {
+    public Titular(String titulo, Integer img, String subTitulo) {
         this.titulo = titulo;
         this.img = img;
+        this.subTitulo = subTitulo;
     }
 
     public String getTitulo() {
         return titulo;
+    }
+
+    public String getSubTitulo(){
+        return subTitulo;
     }
 
     public Integer getImg() {

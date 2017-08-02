@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, MaterialActivity.class);
                 Bundle b = new Bundle();
                 b.putInt("position", position);
-                b.putString("equipo", ((Titular) a.getItemAtPosition(position)).getTitulo());
                 intent.putExtras(b);
                 startActivity(intent);
             }
@@ -72,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    //For put an image and text into de ListView
 
     static class ViewHolder {
         TextView titulo;
